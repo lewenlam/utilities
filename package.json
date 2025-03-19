@@ -1,0 +1,21 @@
+{
+  "name": "utilities",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "search_foc": "node scripts/search_foc.js",
+    "combine_pdf": "node scripts/combine_documents_to_pdf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cli-progress": "^3.12.0",
+    "docx-pdf": "^0.0.1",
+    "docx2pdf-converter": "^2.1.1",
+    "jsdom": "^26.0.0",
+    "pdf-lib": "^1.17.1"
+  }
+}
