@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "search_foc": "node scripts/search_foc.js",
-    "combine_pdf": "node scripts/combine_documents_to_pdf.js"
+    "drawIoTable2MD": "node scripts/drawIoTable2MD.js",
+    "combine_pdf": "node scripts/combine_pdf.js"
   },
   "keywords": [],
   "author": "",
@@ -13,9 +14,9 @@
   "description": "",
   "dependencies": {
     "cli-progress": "^3.12.0",
-    "docx-pdf": "^0.0.1",
     "docx2pdf-converter": "^2.1.1",
     "jsdom": "^26.0.0",
-    "pdf-lib": "^1.17.1"
+    "pdf-lib": "^1.17.1",
+    "xmldom": "^0.6.0"
   }
 }
